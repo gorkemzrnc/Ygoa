@@ -15,8 +15,5 @@ public class ToplamaTest {
 		// THEN
 		assertEquals(1, gercekSonuc);
 	}
-	@Test
-	public void testTopla2(){
-		fail("Not yet implemented");
-	}
+
 }
