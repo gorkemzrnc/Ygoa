@@ -5,13 +5,13 @@ public class BolmeTest {
 	@Test
 	public void testBolme(){
 		// GIVEN
-		double sayi1 = 5;
-		double sayi2 = 1;
+		int sayi1 = 5;
+		int sayi2 = 1;
 		
 		// WHEN
-		double gercekSonuc = Bolme.islemYap(sayi1,sayi2);
+		int gercekSonuc = Bolme.islemYap(sayi1,sayi2);
 		
 		// THEN
-		assertEquals(5.0, gercekSonuc);
+		assertEquals(5, gercekSonuc);
 	}
 }
